@@ -1,0 +1,38 @@
+body,html{
+    font-size: 20px;
+    background-color: #ffffff;
+    color: white;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 3rem;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.navbar .navMenu{
+    z-index: 6;
+}
+
+.navbar .logo{
+    flex: 30%
+}
+
+.navbar .user{
+    text-align: right;
+}
+.menu{
+    position: absolute;
+    padding: 3rem 5rem 3rem;
+    top: 0;
+    background-image: linear-gradient(to right,brown,#0A0A0a);
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+}
+.menuItem{
+    margin-top: 0.5rem;
+    display: block;
+}

@@ -1,13 +1,12 @@
-
-$(document).ready(function() {
-    $(".user").click(
-        function () {
-            if($("#css").attr("href")=="main.css") {
-                $("#css").attr("href", "copy.css");
-            } else{
-                $("#css").attr("href", "main.css");
-            }
-            console.log("jde to!");
-        }
-    );
+$(document).ready(function(){
+    $('.user').click(function(){
+		if($("body").hasClass('dark')){
+			$("body").addClass('light');
+			$("body").removeClass('dark');
+		} else{
+			$("body").addClass('dark');
+			$("body").removeClass('light');
+		}
+		console.log("jde to!");
+    });
 });

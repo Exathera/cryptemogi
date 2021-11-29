@@ -1,5 +1,5 @@
 .dark{
-    --background: #2d2d2d;
+    --background: #0a0a0a;
 	--textColor: white;
 	--moon: #828282;
 	--moonHover: #00ffaf;
@@ -49,33 +49,15 @@ a{
 .background{
 	width: 40%;
     height: 30%;
-	border-radius: 50%;
-    background: yellow;
-	transform: translate(-100px, 0);
+    transform: translate(40%, 90%);
+    background: #00fffff7;
 }
 
 .background2{
 	width: 40%;
     height: 30%;
-	border-radius: 50%;
-	background: #ff0000;
-	transform: translate(200px, 0);
-}
-
-.background3{
-	width: 40%;
-    height: 30%;
-	border-radius: 50%;
-	background: yellow;
-	transform: rotate(-45deg);
-}
-
-.background4{
-	width: 30%;
-    height: 20%;
-	border-radius: 50%;
-	background: #ff0000;
-	transform: rotate(45deg) translate(-200px, 0);
+    transform: translate(115%, 90%);
+	background: #ff0000c7;
 }
 
 .main{
